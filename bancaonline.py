@@ -6,3 +6,6 @@ while True:
             4. Reiniciar cuenta
             5. Salir """)
   opcion = int(input("Introduce una opción:"))
+
+  if opcion == 3:
+    print(f"Su saldo es: {saldo}\n");
